@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.conteinar{
+    background-image: url(./header/first-bg.png);
+    width: 100%;
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.conteinar .menu{
+    text-align: center;
+    
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin-left: 45px;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+a:hover{
+    color: orange;
+}
+
+.about .ditels1{
+    width: 40%;
+}
+
+.man img{
+    width: 350px;
+    height: 250px;
+    margin-left: 120px;
+}
+
+.about{
+    display: flex;
+    margin: 140px auto;
+    width: 80%;
+    
+}
+
+.ditels1 .cr{
+    color: white;
+    font-size: 30px;
+}
+
+.ditels1 .pro{
+    color: orange;
+    font-size: 30px;
+}
+
+.ditels1 .hd{
+    color: white;
+    text-align: justify;
+
+}
+
+.ditels1 .lm{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(66, 250, 250) ;
+    padding: 4px 10px;
+    font-size: 14px;
+    border-radius: 6px;
+}
+
+.four{
+    background-image: url(./main/four.png);
+    width: 100%;
+    height: 66vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-size: cover;
+}
+
+.facebook img{
+    width: 300px;
+    height: 220px;
+    margin: 100px 100px;
+}
+
+.naj{
+    display: flex;
+}
+.naj1{
+    width: 350px;
+    height: 250px;
+    margin: 100px 10px;
+}
+
+.naj1 .ab{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.naj1 .des{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.naj1 .lo{
+    text-align: justify;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.naj1 .learn{
+    background-color: orangered;
+    padding: 5px 10px;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    border-radius: 6px;
+}
+
+.three{
+    background-image: url(./three/three.png);
+    width: 100%;
+    height: 62vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-size: cover;
+    margin-bottom: 40px;
+    
+}
+
+.ditelsthree .our{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.ditelsthree{
+    width: 35%;
+    margin: 70px auto;
+    
+}
+
+.ditelsthree .we{
+    font-size: 30px;
+}
+
+.ditelsthree .threelorem{
+    text-align: justify;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.ditelsthree .threemore{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(255, 68, 0);
+    padding: 6px 10px;
+    border-radius: 6px;
+    color: black;
+}
+
+.maj{
+    display: flex;
+
+}
+
+.shadow{
+    width: 30%;
+    margin: 70px auto;
+    
+    
+}
+
+.shadow .ui{
+    font-size: 18px;
+}
+
+.shadow .shadowditels{
+    font-size: 11px;
+    color: rgb(255, 255, 255);
+}
+
+.shadoeone{
+    box-shadow: 5px 5px 10px gray;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.two{
+    background-image: url(./two/two.png);
+    width: 100%;
+    height: 62vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jan{
+    width: 35%;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.jan .najcontact{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: blueviolet;
+}
+
+.jan .najdont{
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
+
+.jan .najlorem{
+    text-align: justify;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.jan-main{
+    display: flex;
+}
+
+.sign{
+    margin: 50px auto;
+}
+
+.sign .signname{
+    color: blueviolet;
+    font-weight: 600;
+}
+
+.sign .in{
+    width: 180px;
+    height: 26px;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.sign .signemail{
+    color: blueviolet;
+    font-weight: 600;
+}
+
+.sign .signmessage{
+    color: blueviolet;
+    font-weight: 600;
+}
+
+.sign .message{
+    width: 240px;
+    height: 80px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.submit{
+    width: 70px;
+    height: 22px;
+    background-color: orangered;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+.last{
+    background-image: url(./header/first-bg.png);
+    width: 100%;
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.last h4{
+    color: white;
+    text-align: center;
+    
+}
+
+span{
+    
+    border-radius: 50%;
+    padding: 1px;
+    outline: 3px solid white;
+
+}
+
+
+
+
+
